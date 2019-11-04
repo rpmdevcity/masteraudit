@@ -360,3 +360,16 @@ body {
   font-weight: 300;
   line-height: 36px;
 }
+
+.screen_7 {
+  margin-bottom: 200px;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  background-image: url(../img/06.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.screen_7 .uk-h2 {
+  font-weight: 500;
+  margin-bottom: 100px;
+}
