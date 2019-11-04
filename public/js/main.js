@@ -1,1 +1,1 @@
-import './fb'
+import './fb';

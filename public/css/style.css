@@ -319,3 +319,44 @@ body {
   border-radius: 50%;
   overflow: hidden;
 }
+
+.screen_6 {
+  margin-bottom: 200px;
+}
+.screen_6 .uk-h2 {
+  color: #4c4c4c;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 80px;
+}
+.screen_6 .newsCard .uk-card {
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: ease-in .4s;
+}
+.screen_6 .newsCard .uk-card:hover {
+  background-color: #adadad;
+  background-image: linear-gradient(180deg, #2699db 0%, #9d31fe 100%);
+}
+.screen_6 .newsCard .uk-card:hover h3 {
+  color: #fff;
+  transition: .2s;
+}
+.screen_6 .newsCard .uk-card:hover p {
+  color: #fff;
+  transition: .2s;
+}
+.screen_6 .newsCard h3 {
+  color: #4c4c4c;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+}
+.screen_6 .newsCard p {
+  color: #4c4c4c;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 36px;
+}
