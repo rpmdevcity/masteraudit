@@ -1,0 +1,316 @@
+@import "compass/reset";
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+.btGradient {
+		display: block;
+		color: white;
+		font-size: 24px;
+		font-style: italic;
+		outline: none;
+		border:none;
+		padding: 10px 85px;
+background-image: linear-gradient(180deg, #2699db 0%, #9d31fe 100%);
+border-radius: 5px;
+box-shadow: 0 39px 56.4px 3.6px rgba(47, 145, 222, 0.24);
+		cursor: pointer;
+
+
+		&:hover{
+			transition: .5s;
+			color:#000;
+		}
+	}
+
+	.btMore { 
+		color: white;
+		display: inline-block;
+		font-size: 24px;
+		font-style: italic;
+		line-height: 48px;
+		text-transform: uppercase;
+		outline: none;
+		border:none;
+		padding: 5px 30px;
+background-image: linear-gradient(180deg, #2699db 0%, #9d31fe 100%);
+border-radius: 5px;
+box-shadow: 0 39px 56.4px 3.6px rgba(47, 145, 222, 0.24);
+
+ 
+
+		&:hover{
+			transition: .5s;
+			color:#000;
+		}
+	}
+
+
+
+
+.screen_1{
+	background-image: url(../img/01.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 619px;
+
+	.wrap_screen_one{
+		padding-top: 60px;
+		padding-bottom: 115px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: calc(619px - 175px);
+
+		.top_nav{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			a.logo{
+				color:#fff;
+				text-decoration: none;
+				display: flex;
+				align-items: center;
+				font-size: 24px;
+        font-weight: 400;
+
+				img{
+					margin-right: 12px;
+				}
+			}
+
+			ul.nav{
+				display: flex;
+
+				li{
+
+					a{
+						color:#fff;
+						margin-left: 100px;
+						text-decoration: none;
+						font-family: Roboto;
+						font-size: 18px;
+						font-weight: 300;
+						text-transform: uppercase;
+					}
+				}
+			}
+		}
+
+		.utp{
+			color: white;
+			font-size: 60px;
+			font-weight: 700;
+		}
+
+		p{
+			color:#fff;
+		}
+
+
+		form#utpScreen{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			input {
+				opacity: 0.5;
+				font-family: Roboto;
+				font-size: 24px;
+				font-weight: 300;
+				background-color: transparent;
+				border:none;
+				outline: none;
+				width: 190px;
+				border-bottom: 1px solid #fff;
+				padding-bottom: 14px;
+				color:#fff;
+
+				&::placeholder{
+					color:#fff;
+				}
+			}
+
+// 			button.sendForm {
+// 				display: block;
+// 				color: white;
+// 				font-size: 24px;
+// 				font-style: italic;
+// 				outline: none;
+// 				border:none;
+// 				padding: 10px 85px;
+// background-image: linear-gradient(180deg, #2699db 0%, #9d31fe 100%);
+// border-radius: 5px;
+// box-shadow: 0 39px 56.4px 3.6px rgba(47, 145, 222, 0.24);
+// 				cursor: pointer;
+
+
+// 				&:hover{
+// 					transition: .5s;
+// 					color:#000;
+// 				}
+// 			}
+
+
+
+		}
+	}
+
+
+}
+
+
+
+.screen_2{
+	padding-top: 140px;
+	padding-bottom: 214px;
+	
+	.uk-h2{
+		color: #4c4c4c;
+		font-size: 36px;
+		line-height: 80px;
+		font-weight: 400;
+
+		span{
+			font-weight: 100;
+			color:#b4b4b4;
+		}
+	}
+
+	p{
+		color: #4c4c4c;
+		font-family: Roboto;
+		font-size: 18px;
+		font-weight: 300;
+		line-height: 36px;
+	}
+
+	.icons{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 154px;
+
+		.icon {
+			display: flex;
+			align-items: center;
+
+			img{
+				margin-right: 45px;
+			}
+
+		}
+	}
+}
+
+
+ 
+.screen_3{
+	margin-bottom: 200px;
+	padding-top: 100px;
+	padding-bottom: 60px;
+	background-image: url(../img/06.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	a{
+		text-decoration: none;
+		margin-top: 25px;
+	}
+
+	.titleBtCard{
+		.uk-h2{
+			color: white;
+			font-size: 60px;
+			font-weight: 700;
+			line-height: 80px;
+			margin-left: 175px;
+			margin-bottom: 60px !important;
+			text-align: left;
+		}
+	}
+
+	.descrCard {
+		p{
+			color: #4c4c4c;
+		font-family: Roboto;
+		font-size: 18px;
+		font-weight: 300;
+		line-height: 36px;
+		}
+	}
+
+}
+
+
+
+.screen_4{
+	margin-bottom: 200px;
+
+	.uk-h2{
+		color: #4c4c4c;
+		font-size: 36px;
+		font-weight: 400;
+		line-height: 80px;
+	}
+
+	.namOnCard{
+		color: white;
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 30px;
+		margin-top: 40px;
+		margin-left: 40px;
+		text-align: left;
+	}
+
+	.uk-overlay-default{
+		background-image: linear-gradient(180deg, rgba( #2699db, .8) 0%, rgba(#9d31fe, .8) 100%);
+	}
+}
+
+
+
+.screen_5{
+	margin-bottom: 200px;
+	padding-top: 50px;
+	padding-bottom: 60px;
+	background-image: url(../img/06.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	.uk-h2{
+		font-weight: 500;
+		margin-bottom: 100px;
+	}
+
+	a{
+		text-decoration: none;
+		margin-top: 25px;
+	}
+
+	.titleBtCard{
+		.uk-h2{
+			color: white;
+			font-size: 60px;
+			font-weight: 700;
+			line-height: 80px;
+			margin-left: 175px;
+			margin-bottom: 60px !important;
+			text-align: left;
+		}
+	}
+
+	.descrCard {
+		p{
+			color: #4c4c4c;
+		font-family: Roboto;
+		font-size: 18px;
+		font-weight: 300;
+		line-height: 36px;
+		}
+	}
+
+}
